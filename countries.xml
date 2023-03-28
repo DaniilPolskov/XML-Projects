@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Создать XML-файл, хранящий языки и денежные знаки для стран, проверить правильность кода припомощи веб браузера (10 стран)
+При создании файлов, используйте также атрибуты.
+Daniil Polskov
+28.03.2023
+-->
+<root>
+    <country>
+        <name>Germany</name>
+        <languages>
+            <lang isOfficial="True">German</lang>
+            <lang>English</lang>
+            <lang>Turkey</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+    
+    <country>
+        <name>Latvia</name>
+        <languages>
+            <lang isOfficial="True">Latvian</lang>
+            <lang>Russian</lang>
+            <lang>English</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+
+    <country>
+        <name>Poland</name>
+        <languages>
+            <lang isOfficial="True">Polish</lang>
+            <lang>English</lang>
+            <lang>German</lang>
+        </languages>
+        <currency name="Polish Zloty" sing="zł"></currency>
+    </country>
+    
+    <country>
+        <name>England</name>
+        <languages>
+            <lang isOfficial="True">English</lang>
+            <lang>French</lang>
+            <lang>Spanish</lang>
+        </languages>
+        <currency name="Pound" sing="£"></currency>
+    </country>
+
+    <country>
+        <name>Spanish</name>
+        <languages>
+            <lang isOfficial="True">Spanish</lang>
+            <lang>Catalan</lang>
+            <lang>Valencian</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+    
+    <country>
+        <name>Argentina</name>
+        <languages>
+            <lang isOfficial="True">Spanish</lang>
+            <lang>English</lang>
+            <lang>German</lang>
+        </languages>
+        <currency name="Argentine Peso" sing="$"></currency>
+    </country>
+
+    <country>
+        <name>Mexico</name>
+        <languages>
+            <lang isOfficial="True">Spanish</lang>
+            <lang>English</lang>
+            <lang>German</lang>
+        </languages>
+        <currency name="Mexican Peso" sing="$"></currency>
+    </country>
+
+    <country>
+        <name>Greece</name>
+        <languages>
+            <lang isOfficial="True">Greek</lang>
+            <lang>English</lang>
+            <lang>Italian</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+
+    <country>
+        <name>Romania</name>
+        <languages>
+            <lang isOfficial="True">Romanian</lang>
+            <lang>English</lang>
+            <lang>German</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+
+    <country>
+        <name>Italy</name>
+        <languages>
+            <lang isOfficial="True">Italian</lang>
+            <lang>English</lang>
+            <lang>French</lang>
+        </languages>
+        <currency name="Euro" sing="€"></currency>
+    </country>
+</root>

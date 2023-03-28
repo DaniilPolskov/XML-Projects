@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Создать XML-файл – рецепты пиццы, проверить правильность кода при помощи веб браузера (5 пицц)
+    При создании файлов, используйте также атрибуты.
+    Daniil Polskov
+    28.03.2023 
+-->
+<root>
+    <pizza>
+        <name>Pepperoni</name>
+        <description>Pepperoni is basically an American version of salami. 
+            Pepperoni is a meat mixture of beef and pork that has been cured and seasoned with paprika and chili powder. 
+            It's a loved American food staple and most commonly used to make pepperoni pizza.</description>
+            <img>https://www.simplyrecipes.com/thmb/W146u5P26Cbw8u33cLN3lQl_bMY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-5-51e2bcdb9afe48a19f5c7283c637a0a5.jpg</img>
+        <ingredients>
+            <ingredient name="ounces pizza dough" amount="16"></ingredient>
+            <ingredient name="cup pizza sauce" amount="1/2"></ingredient>
+            <ingredient name="slices pepperoni" amount="20"></ingredient>
+            <ingredient name="ounces mozzarella cheese" amount="12 "></ingredient>
+            <ingredient name="teaspoon ground black pepper" amount="1/2"></ingredient>
+        </ingredients>
+        <steps>
+            <step description="Preheat the oven" numberstep="1"></step>
+            <step description="Make the sauce" numberstep="2"></step>
+            <step description="Roll out the dough" numberstep="3"></step>
+        </steps>
+    </pizza>
+    
+    <pizza>
+        <name>Margherita</name>
+        <description>Pizza margherita, as the Italians call it, is a simple pizza hailing from Naples. 
+            When done right, margherita pizza features a bubbly crust, crushed San Marzano tomato sauce, 
+            fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt.</description>
+            <img>https://cookieandkate.com/images/2021/07/margherita-pizza-recipe-1-2-768x1155.jpg</img>
+        <ingredients>
+            <ingredient name="strong bread flour" amount="300g"></ingredient>
+            <ingredient name="instant yeast" amount="1 tsp"></ingredient>
+            <ingredient name="salt" amount="1 tsp"></ingredient>
+            <ingredient name="olive oil" amount="1 tbsp"></ingredient>
+            <ingredient name="passata" amount="100ml"></ingredient>
+        </ingredients>
+        <steps>
+            <step description="Make the base" numberstep="1"></step>
+            <step description="Mix the passata, basil and crushed garlic together" numberstep="2"></step>
+            <step description="On a floured surface, roll out the dough into large rounds" numberstep="3"></step>
+        </steps>
+    </pizza>
+
+    <pizza>
+        <name>Mozzarella</name>
+        <description>I like to think of a good margherita pizza as a heartier cousin of Caprese salad, with a crisp, 
+            chewy crust supporting the delicious trio of tomatoes, basil, and fresh mozzarella. 
+            You’ll find this classic pizza on the menu of any Neapolitan pizza joint, but you can also make a really great homemade version.</description>
+            <img>https://www.saveur.com/uploads/2019/07/08/JTPSD2ONPYISBHIP4CJ5HDW55A.jpg?auto=webp</img>
+        <ingredients>
+            <ingredient name="unbleached all-purpose flour" amount="300g"></ingredient>
+            <ingredient name="granulated sugar" amount="½ teaspoon"></ingredient>
+            <ingredient name="diamond Crystal kosher salt" amount="¾ teaspoon"></ingredient>
+            <ingredient name="warm water" amount="7 ounces"></ingredient>
+            <ingredient name="extra virgin olive oil" amount="1 tablespoon"></ingredient>
+        </ingredients>
+        <steps>
+            <step description="Place Pizza Dough on a large sheet of parchment paper." numberstep="1"></step>
+            <step description="Preheat oven to 500°." numberstep="2"></step>
+            <step description="Roll dough into a 12-inch circle on parchment paper." numberstep="3"></step>
+        </steps>
+    </pizza>
+        
+    <pizza>
+        <name>3 Cheese</name>
+        <description>This Three Cheese White Pizza recipe is loaded with delicious cheeses on a homemade pizza crust! 
+            It’s easy to make and such a favorite pizza!</description>
+            <img>https://www.modernhoney.com/wp-content/uploads/2019/05/The-Best-3-Cheese-White-Pizza-3.jpg</img>
+        <ingredients>
+            <ingredient name="all-Purpose Flour" amount="1/2 cups"></ingredient>
+            <ingredient name="instant Dry Yeast" amount="1/2 tbsp"></ingredient>
+            <ingredient name="granulated Sugar" amount="1 tbsp"></ingredient>
+            <ingredient name="salt" amount="1/2 tsp"></ingredient>
+            <ingredient name="warm water" amount="1/2 cup"></ingredient>
+        </ingredients>
+        <steps>
+            <step description="Preheat oven to 450 degrees F (230 degrees C)." numberstep="1"></step>
+            <step description="Prepare the Asiago Cheese (2/3 cup) , Mozzarella Cheese (2 cups) and Parmesan Cheese (2/3 cup) ." numberstep="2"></step>
+            <step description="Sift together the All-Purpose Flour (1 1/2 cups) , Granulated Sugar (1 Tbsp) , Instant Dry Yeast (1/2 Tbsp) , and Salt (1/2 tsp) into a large bowl. Step" numberstep="3"></step>
+        </steps>
+    </pizza>
+            
+    <pizza>
+        <name>Homemade Pizza</name>
+        <description>The following method I patched together from recipes in both Joy of Cooking and Cook's Illustrated's The Best Recipe. The pizza dough recipe makes enough dough for two 10 to 12 inch pizzas.
+        Next time I'll be a bit more patient with stretching out the dough so I can get it even thinner.</description>
+            <img>https://www.simplyrecipes.com/thmb/rngm-7eZfo-gsKuRWOceBMM9m_c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1b-ea13798d224048b3a28afb0936c9b645.jpg</img>
+        <ingredients>
+            <ingredient name="bread flour" amount="490g"></ingredient>
+            <ingredient name="granulated sugar" amount="½ teaspoon"></ingredient>
+            <ingredient name="extra virgin olive oil" amount="2 tablespoons"></ingredient>
+            <ingredient name="kosher salt" amount="2 teaspoons"></ingredient>
+            <ingredient name="sugar" amount="1 tablespoon"></ingredient>
+        </ingredients>
+        <steps>
+            <step description="Place the warm water in the large bowl of a heavy duty stand mixer." numberstep="1"></step>
+            <step description="Add the flour, salt, sugar, and olive oil, and using the mixing paddle attachment, mix on low speed for a minute." numberstep="2"></step>
+            <step description="Spread a thin layer of olive oil over the inside of a large bowl." numberstep="3"></step>
+        </steps>
+    </pizza>
+</root>
