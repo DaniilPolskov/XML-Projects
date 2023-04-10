@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE contacs [
+    <!ELEMENT contacs (contact*)>
+    <!ELEMENT contact (name?, email+)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+<!ATTLIST name type (firstname | lastname) "firstname">
+]>
+<contacs>
+</contacs>

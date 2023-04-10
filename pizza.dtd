@@ -1,0 +1,13 @@
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT steps (step*)>
+<!ELEMENT pizza (name, description, img, ingredient, step)
+<!ATTLIST ingredient
+        name(ounces pizza dough, cup pizza sauce, slices pepperoni, ounces mozzarella cheese, teaspoon ground black pepper, strong bread flour, instant yeast, salt, olive oil, passata)
+        amount(16, 1/2, 20, 12, 1/2, 300g, 1 tsp, 1 tbsp, 100ml, 1/2 tsp, 3/4 tsp, 1 tbsp, 1/2 cups, 1/2 tbsp, 490g, 2 tbsp, 2 tsp)
+<!ATTLIST step
+        description(Preheat the oven, Make the sauce, Roll out the dough, Make the base, Mix the passata, basil and crushed garlic together, On a floured surface, roll out the dough into large rounds)
+        numberstep(1, 2, 3)
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT ingredient (#PCDATA) > 
+<!ELEMENT step (#PCDATA) > 

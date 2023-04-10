@@ -15,7 +15,7 @@
             <ingredient name="ounces pizza dough" amount="16"></ingredient>
             <ingredient name="cup pizza sauce" amount="1/2"></ingredient>
             <ingredient name="slices pepperoni" amount="20"></ingredient>
-            <ingredient name="ounces mozzarella cheese" amount="12 "></ingredient>
+            <ingredient name="ounces mozzarella cheese" amount="12"></ingredient>
             <ingredient name="teaspoon ground black pepper" amount="1/2"></ingredient>
         </ingredients>
         <steps>
@@ -53,8 +53,8 @@
             <img>https://www.saveur.com/uploads/2019/07/08/JTPSD2ONPYISBHIP4CJ5HDW55A.jpg?auto=webp</img>
         <ingredients>
             <ingredient name="unbleached all-purpose flour" amount="300g"></ingredient>
-            <ingredient name="granulated sugar" amount="½ teaspoon"></ingredient>
-            <ingredient name="diamond Crystal kosher salt" amount="¾ teaspoon"></ingredient>
+            <ingredient name="granulated sugar" amount="1/2 teaspoon"></ingredient>
+            <ingredient name="diamond Crystal kosher salt" amount="3/4 teaspoon"></ingredient>
             <ingredient name="warm water" amount="7 ounces"></ingredient>
             <ingredient name="extra virgin olive oil" amount="1 tablespoon"></ingredient>
         </ingredients>
@@ -91,10 +91,10 @@
             <img>https://www.simplyrecipes.com/thmb/rngm-7eZfo-gsKuRWOceBMM9m_c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1b-ea13798d224048b3a28afb0936c9b645.jpg</img>
         <ingredients>
             <ingredient name="bread flour" amount="490g"></ingredient>
-            <ingredient name="granulated sugar" amount="½ teaspoon"></ingredient>
-            <ingredient name="extra virgin olive oil" amount="2 tablespoons"></ingredient>
-            <ingredient name="kosher salt" amount="2 teaspoons"></ingredient>
-            <ingredient name="sugar" amount="1 tablespoon"></ingredient>
+            <ingredient name="granulated sugar" amount="1/2 tsp"></ingredient>
+            <ingredient name="extra virgin olive oil" amount="2 tbsp"></ingredient>
+            <ingredient name="kosher salt" amount="2 tsp"></ingredient>
+            <ingredient name="sugar" amount="1 tbsp"></ingredient>
         </ingredients>
         <steps>
             <step description="Place the warm water in the large bowl of a heavy duty stand mixer." numberstep="1"></step>

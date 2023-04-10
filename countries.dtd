@@ -1,0 +1,9 @@
+<!ELEMENT languages (lang*)>
+<!ELEMENT country (name, lang, currency)
+<!ATTLIST lang
+        isOfficial(True)
+        currency(Euro, Polish Zloty, Pound, Argentine Peso, Mexican Peso)
+        sing(€, zł, £, $)
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT language (#PCDATA) >
+<!ELEMENT currency (#PCDATA) > 
